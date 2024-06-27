@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3qlsxxtps2l4"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_malrm"]
+[ext_resource type="PackedScene" uid="uid://bitnbfhond6hj" path="res://scenes/NetworkManager.tscn" id="2_gylrb"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_malrm")
+
+[node name="NetworkManager" parent="." instance=ExtResource("2_gylrb")]
